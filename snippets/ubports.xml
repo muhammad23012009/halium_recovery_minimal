@@ -17,4 +17,3 @@
   <project path="vendor/halium/platform-api" name="ubports/platform-api" revision="xenial_-_android9" />
   <project path="vendor/halium/stub_netd" name="Halium/stub_netd" revision="halium-9.0" />
 </manifest>
-</manifest>
