@@ -164,9 +164,6 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/update_engine" />
-  <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
     <!-- Remove from default.xml -->
     <!--
     <remove-project name="device/generic/common"/>
