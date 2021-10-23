@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="remove.xml" />
+<!-- Include external Magisk repo for repack binaries -->
+    <project path="external/magisk-prebuilt" name="TeamWin/external_magisk-prebuilt" remote="github" revision="android-10.0" />
+
+<!-- Include lineage-tools for lzma support -->
+    <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" remote="github" revision="lineage-17.1" />
+
+<!-- Include external/bash for bash support -->
+    <project path="external/bash" name="LineageOS/android_external_bash" remote="github" revision="lineage-17.1" />
+
+<!-- Include external/nano for nano support -->
+    <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-17.1" />
+    
+<!-- Include ntfs_3g for NTFS support -->
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="github" revision="lineage-17.1" />
+
+<!-- Include github android_system_update_engine to build a good update_engine_sideload -->
+    <project path="system/update_engine" name="TeamWin/android_system_update_engine" remote="github" revision="android-10.0" />
+
+<!-- Include github android_hardware_qcom_bootctrl to build a good update_engine_sideload -->
+    <project path="hardware/qcom/bootctrl" name="TeamWin/android_hardware_qcom_bootctrl" remote="github" revision="android-10.0" />
+</manifest>
+
