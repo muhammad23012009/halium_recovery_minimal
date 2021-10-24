@@ -24,5 +24,7 @@
     <project path="hardware/qcom/bootctrl" name="TeamWin/android_hardware_qcom_bootctrl" remote="github" revision="android-10.0" />
 <!-- Add toybox -->
     <project path="external/toybox" name="omnirom/android_external_toybox" remote="github" revision="android-10" />
+<!-- Track Lineage system/core -->
+    <project path="system/core" name="LineageOS/android_system_core" remote="github" revision="lineage-17.1" />
 </manifest>
 
