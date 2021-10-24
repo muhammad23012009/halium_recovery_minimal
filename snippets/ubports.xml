@@ -3,7 +3,7 @@
   <project path="bootable/recovery" name="ubports/halium_bootable_recovery" revision="halium-10.0" remote="github" />
   <project path="external/gpg" name="ubports/android_external_gpg" revision="halium-10.0" remote="github" />
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="lineage-17.1" remote="github" />
-  <project path="hybris-patches" name="Halium/hybris-patches" revision="halium-10.0" remote="github" />
+  <project path="hybris-patches" name="muhammad23012009/hybris-patches" revision="halium-10.0" remote="github" />
   <project path="vendor/halium/config" name="Halium/android_vendor_halium_config" revision="halium-10.0" remote="github" />
   <project path="vendor/halium/devices" name="Halium/halium-devices" revision="halium-10.0" remote="github">
       <linkfile src="." dest="halium/devices" />
