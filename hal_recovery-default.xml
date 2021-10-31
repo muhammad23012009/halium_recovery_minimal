@@ -18,12 +18,12 @@
     <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-17.1" />
 
 <!-- Include github android_system_update_engine to build a good update_engine_sideload -->
-    <project path="system/update_engine" name="TeamWin/android_system_update_engine" remote="github" revision="android-10.0" />
+    <project path="system/update_engine" name="LineageOS/android_system_update_engine" remote="github" revision="lineage-17.1" />
 
 <!-- Include github android_hardware_qcom_bootctrl to build a good update_engine_sideload -->
     <project path="hardware/qcom/bootctrl" name="TeamWin/android_hardware_qcom_bootctrl" remote="github" revision="android-10.0" />
 <!-- Add toybox -->
-    <project path="external/toybox" name="omnirom/android_external_toybox" remote="github" revision="android-10" />
+    <project path="external/toybox" name="LineageOS/android_external_toybox" remote="github" revision="lineage-17.1" />
 <!-- Track Lineage system/core -->
     <project path="system/core" name="LineageOS/android_system_core" remote="github" revision="lineage-17.1" />
 </manifest>
