@@ -28,5 +28,7 @@
     <project path="system/core" name="LineageOS/android_system_core" remote="github" revision="lineage-17.1" />
 <!-- Clone LineageOS SEpolicy -->
     <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="github" revision="lineage-17.1" />
+<!-- Track prebuilt kernel tools -->
+    <project path="kernel/prebuilts/build-tools" name="kernel/prebuilts/build-tools" remote="aosp" revision="master" />
 </manifest>
 
