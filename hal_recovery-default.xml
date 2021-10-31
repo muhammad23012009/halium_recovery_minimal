@@ -26,9 +26,16 @@
     <project path="external/toybox" name="LineageOS/android_external_toybox" remote="github" revision="lineage-17.1" />
 <!-- Track Lineage system/core -->
     <project path="system/core" name="LineageOS/android_system_core" remote="github" revision="lineage-17.1" />
-<!-- Clone LineageOS SEpolicy -->
+<!-- Clone LineageOS SEpolicy --> 
     <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="github" revision="lineage-17.1" />
 <!-- Track prebuilt kernel tools -->
     <project path="kernel/prebuilts/build-tools" name="kernel/prebuilts/build-tools" remote="aosp" revision="master" />
+<!-- Include archive tools -->
+<project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="github" revision="lineage-17.1" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-17.1" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-17.1" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="github" revision="lineage-17.1" />
+  <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-17.1" />
+  <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="lineage-17.1" />
 </manifest>
 
