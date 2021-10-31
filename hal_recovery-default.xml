@@ -26,5 +26,7 @@
     <project path="external/toybox" name="LineageOS/android_external_toybox" remote="github" revision="lineage-17.1" />
 <!-- Track Lineage system/core -->
     <project path="system/core" name="LineageOS/android_system_core" remote="github" revision="lineage-17.1" />
+<!-- Clone LineageOS SEpolicy -->
+    <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="github" revision="lineage-17.1" />
 </manifest>
 
