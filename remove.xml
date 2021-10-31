@@ -523,6 +523,8 @@
     <remove-project name="platform/tools/apksig"/>
     <remove-project name="platform/tools/base"/>
     <remove-project name="platform/tools/build"/>
+    <remove-project name="platform/tools/asuite"/>
+    <remove-project name="platform/hardware/google/pixel"/>
     <remove-project name="platform/tools/external/fat32lib"/>
     <remove-project name="platform/tools/external/gradle"/>
     <remove-project name="platform/tools/idea"/>
