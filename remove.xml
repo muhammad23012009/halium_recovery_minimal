@@ -548,7 +548,6 @@
     <remove-project name="android_hardware_qcom_wlan"/>
     -->
 
-    <!--
     <remove-project name="android_packages_apps_Bluetooth"/>
     <remove-project name="android_packages_apps_Calendar"/>
     <remove-project name="android_packages_apps_CellBroadcastReceiver"/>
@@ -572,16 +571,9 @@
     <remove-project name="android_packages_inputmethods_LatinIME"/>
     <remove-project name="android_packages_providers_DownloadProvider"/>
     <remove-project name="android_packages_services_Telecomm"/>
-    <remove-project name="android_packages_services_Telephony"/>
-
-    <remove-project name="android_system_bpf"/>
-    <remove-project name="android_system_bt"/>
-    <remove-project name="android_system_nfc"/>
-    <remove-project name="android_system_update_engine"/>
-    
+    <remove-project name="android_packages_services_Telephony"/>   
 
     Remove from omni-default.xml (OmniROM Projects)
-    <remove-project name="android_external_bash"/>
     <remove-project name="android_packages_apps_Matlog"/>
     <remove-project name="android_packages_apps_MonthCalendarWidget"/>
     <remove-project name="android_packages_apps_OmniChange"/>
@@ -594,8 +586,5 @@
     <remove-project name="android_packages_apps_OmniChromium"/>
     <remove-project name="android_packages_apps_OmniRecord"/>
     <remove-project name="android_packages_apps_Phonograph"/>
-    <remove-project name="android_vendor_interfaces"/>
 
-    <remove-project name="platform/tools/asuite"/>
-    <remove-project name="platform/hardware/google/pixel"/> -->
 </manifest>
